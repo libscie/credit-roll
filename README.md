@@ -14,6 +14,8 @@ $ npx credit-roll > credits.md
 
 Below is the `credit-roll` output for this project.
 
+***
+
 # Credits
 
 This project is made possible by the community surrounding it and especially the wonderful people and projects listed in this document.
