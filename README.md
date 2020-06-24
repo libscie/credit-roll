@@ -26,7 +26,7 @@ $ npx credit-roll > credits.md
 
 ## Example
 
-Below is the `credit-roll` output for this project (only production dependencies, for brevity).
+Below is the `credit-roll` output for this project (only production dependencies, for brevity). Check [credits.md](https://github.com/libscie/credit-roll/blob/main/credits.md) for a full example.
 
 ---
 
