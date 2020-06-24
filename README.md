@@ -18,8 +18,6 @@ $ # generate the report
 $ npx credit-roll > credits.md
 ```
 
-Be sure to install 
-
 ## Example
 
 Below is the `credit-roll` output for this project.
