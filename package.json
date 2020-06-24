@@ -1,0 +1,21 @@
+{
+  "name": "credit-roll",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Markdown credits for JavaScript projects",
+  "repository": "libscie/credit-roll",
+  "bin": {
+    "credit-roll": "index.js"
+  },
+  "scripts": {
+    "test": "prettier-standard && standard && node index.js"
+  },
+  "dependencies": {
+    "readdirp": "^3.4.0",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "prettier-standard": "^16.3.0",
+    "standard": "^14.3.4"
+  }
+}
