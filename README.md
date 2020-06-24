@@ -34,6 +34,10 @@ Below is the `credit-roll` output for this project.
 
 This project is made possible by the community surrounding it and especially the wonderful people and projects listed in this document.
 
+## Contributors
+
+  - [Julian Gruber](https://github.com/juliangruber)
+
 ## Libraries
 
 ### [picomatch](https://ghub.io/picomatch)
@@ -62,6 +66,7 @@ This project is made possible by the community surrounding it and especially the
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
+
 
 </details>
 
@@ -92,6 +97,7 @@ This project is made possible by the community surrounding it and especially the
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
+
 </details>
 
 ### [semver](https://ghub.io/semver)
@@ -115,7 +121,10 @@ This project is made possible by the community surrounding it and especially the
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+
 </details>
+
+---
 
 ## Contributors ✨
 
