@@ -7,8 +7,18 @@ Supports [All Contributors](https://allcontributors.org/)!
 ## Usage
 
 ```bash
+$ cd my-project
+
+$ # install dependencies
+$ npm install
+$ # or if you only want to mention production dependencies
+$ npm install --production
+
+$ # generate the report
 $ npx credit-roll > credits.md
 ```
+
+Be sure to install 
 
 ## Example
 
