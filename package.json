@@ -8,6 +8,7 @@
     "credit-roll": "index.js"
   },
   "scripts": {
+    "release": "np",
     "test": "prettier-standard && standard && node index.js"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "semver": "^7.3.2"
   },
   "devDependencies": {
+    "np": "^6.2.4",
     "prettier-standard": "^16.3.0",
     "standard": "^14.3.4"
   }
