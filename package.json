@@ -8,7 +8,7 @@
     "credit-roll": "index.js"
   },
   "scripts": {
-    "release": "np",
+    "release": "np --any-branch",
     "test": "prettier-standard && standard && node index.js"
   },
   "dependencies": {
