@@ -9,7 +9,7 @@
   },
   "scripts": {
     "release": "np --any-branch",
-    "test": "prettier-standard && standard && node index.js"
+    "test": "prettier-standard && standard && node index.js > credits.md"
   },
   "dependencies": {
     "readdirp": "^3.4.0",

@@ -26,7 +26,7 @@ $ npx credit-roll > credits.md
 
 ## Example
 
-Below is the `credit-roll` output for this project.
+Below is the `credit-roll` output for this project (only production dependencies, for brevity).
 
 ---
 
@@ -36,7 +36,7 @@ This project is made possible by the community surrounding it and especially the
 
 ## Contributors
 
-  - [Julian Gruber](https://github.com/juliangruber)
+- [Julian Gruber](https://github.com/juliangruber)
 
 ## Libraries
 
@@ -67,7 +67,6 @@ This project is made possible by the community surrounding it and especially the
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
 
-
 </details>
 
 ### [readdirp](https://ghub.io/readdirp)
@@ -97,7 +96,6 @@ This project is made possible by the community surrounding it and especially the
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-
 </details>
 
 ### [semver](https://ghub.io/semver)
@@ -120,7 +118,6 @@ This project is made possible by the community surrounding it and especially the
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
 
 </details>
 
