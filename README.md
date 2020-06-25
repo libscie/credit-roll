@@ -24,6 +24,34 @@ $ # generate the report
 $ npx credit-roll > credits.md
 ```
 
+## Sections
+
+### Contributors
+
+If an `.all-contributorsrc` is present, add a **Contributors** section and link to their respective GitHub profiles.
+
+### Custom sections
+
+For every extra json file passed, add a section listing the names mentioned.
+
+For example, to add a `## Testers`, section, create a file `testers.json`:
+
+```json
+[{ "name": "A robot" }, { "name": "Beep Boop" }]
+```
+
+and pass it like this:
+
+```bash
+$ npx credit-roll ./testers.json > credits.md
+```
+
+The section name will be deducted from the file name.
+
+### Libraries
+
+For each library found in `./node_modules`, add name, license name and license text.
+
 ## Example
 
 Below is the `credit-roll` output for this project (only production dependencies, for brevity). Check [credits.md](https://github.com/libscie/credit-roll/blob/main/credits.md) for a full example.

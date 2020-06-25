@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "readdirp": "^3.4.0",
-    "semver": "^7.3.2"
+    "semver": "^7.3.2",
+    "title-case": "^3.0.2"
   },
   "devDependencies": {
     "np": "^6.2.4",

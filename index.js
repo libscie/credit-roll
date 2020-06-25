@@ -3,8 +3,9 @@
 
 const { promises: fs } = require('fs')
 const readdirp = require('readdirp')
-const { dirname } = require('path')
+const { dirname, basename, resolve } = require('path')
 const semver = require('semver')
+const { titleCase } = require('title-case')
 
 const main = async () => {
   let contributors
@@ -29,6 +30,19 @@ const main = async () => {
     console.log()
     for (const { login, name } of contributors) {
       console.log(`  - [${name}](https://github.com/${login})`)
+    }
+    console.log()
+  }
+
+  for (const file of process.argv.slice(2)) {
+    const absolutePath = resolve(process.cwd(), file)
+    const data = require(absolutePath)
+    const section = basename(file, '.json')
+
+    console.log(`## ${titleCase(section)}`)
+    console.log()
+    for (const { name } of data) {
+      console.log(`  - ${name}`)
     }
     console.log()
   }
