@@ -24,7 +24,28 @@ $ # generate the report
 $ npx credit-roll > credits.md
 ```
 
+    # Credits
+
+    This project is made possible by the community surrounding it and especially the wonderful people and projects listed in this document.
+
+    ## Contributors
+
+    - [Julian Gruber](https://github.com/juliangruber)
+
+    ## Libraries
+
+    ### [picomatch](https://ghub.io/picomatch)
+
+    <details>
+      <summary>MIT</summary>
+
+        The MIT License (MIT)
+
+    </details>
+
 ## Sections
+
+Several different sections are supported.
 
 ### Contributors
 
