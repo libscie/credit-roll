@@ -46,7 +46,16 @@ and pass it like this:
 $ npx credit-roll ./testers.json > credits.md
 ```
 
-The section name will be deducted from the file name.
+The resulting markdown will be:
+
+    ...
+    ## Testers
+
+      - A robot
+      - Beep Boop
+    ...
+
+The section name is deducted from the file name.
 
 ### Libraries
 
