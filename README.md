@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Markdown credits for JavaScript projects.
+Markdown credits for JavaScript projects. Mentions direct contributors, dependency licenses and anything else you want to add.
 
 Supports [All Contributors](https://allcontributors.org/)!
 
