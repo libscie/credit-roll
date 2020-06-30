@@ -18,6 +18,8 @@ const main = async () => {
     contributors = rc.contributors
   } catch (_) {}
 
+  console.log('<!-- This document was automatically generated through `credit-roll`. Please don\'t edit it directly. -->')
+  console.log()
   console.log('# Credits')
   console.log()
   console.log(
