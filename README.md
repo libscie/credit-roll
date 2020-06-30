@@ -86,6 +86,10 @@ The section name is deducted from the file name.
 
 For each library found in `./node_modules`, add name, license name and license text.
 
+### GitHub Actions
+
+In order to keep your `credits.md` up to date, check out this GitHub Action: https://github.com/hypergraph-xyz/desktop/blob/main/.github/workflows/credits.yml.
+
 ## Example
 
 Below is the `credit-roll` output for this project (only production dependencies, for brevity). Check [credits.md](https://github.com/libscie/credit-roll/blob/main/credits.md) for a full example.
