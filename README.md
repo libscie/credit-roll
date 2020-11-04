@@ -1,4 +1,4 @@
-# credit-roll
+# credit-roll <img src="https://raw.githubusercontent.com/libscie/design/main/libscie-logomark-1024-square.png" align="right" height="64" />
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
