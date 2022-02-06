@@ -59,7 +59,14 @@ const main = async () => {
   })
   const pkgs = {}
   for (const entry of entries) {
-    const pkg = JSON.parse(await fs.readFile(entry.fullPath))
+    const entryBuffer = await fs.readFile(entry.fullPath)
+    let pkg
+    try {
+      pkg = JSON.parse(entryBuffer)
+    } catch (err) {
+      //malformed JSON, skip this entry
+      continue
+    }
     if (!pkg.version) continue
     pkg.fullPath = entry.fullPath
     if (!pkgs[pkg.name] || semver.lt(pkgs[pkg.name].version, pkg.version)) {
