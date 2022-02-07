@@ -1,9 +1,7 @@
 # credit-roll <img src="https://raw.githubusercontent.com/libscie/design/main/libscie-logomark-1024-square.png" align="right" height="64" />
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Markdown credits for JavaScript projects. Mentions direct contributors, dependency licenses and anything else you want to add.
@@ -198,11 +196,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://twitter.com/juliangruber/"><img src="https://avatars2.githubusercontent.com/u/10247?v=4" width="100px;" alt=""/><br /><sub><b>Julian Gruber</b></sub></a><br /><a href="https://github.com/libscie/credit-roll/commits?author=juliangruber" title="Code">💻</a></td>
+    <td align="center"><a href="http://twitter.com/juliangruber/"><img src="https://avatars2.githubusercontent.com/u/10247?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julian Gruber</b></sub></a><br /><a href="https://github.com/libscie/credit-roll/commits?author=juliangruber" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/pbr4ne"><img src="https://avatars.githubusercontent.com/u/22901953?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pbr4ne</b></sub></a><br /><a href="https://github.com/libscie/credit-roll/issues?q=author%3Apbr4ne" title="Bug reports">🐛</a> <a href="https://github.com/libscie/credit-roll/commits?author=pbr4ne" title="Code">💻</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
